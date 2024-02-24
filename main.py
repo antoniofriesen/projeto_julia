@@ -16,5 +16,5 @@ for i, receita in dados_excel.groupby('Receita'):
     
     # Imprimir o slope.
     print(f"Slope para a receita {i}: {slope}")
-    
+
 # Fim do programa.

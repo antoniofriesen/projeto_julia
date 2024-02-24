@@ -14,3 +14,7 @@ def normalizar(valores):
     # Normaliza os valores entre 0 e 100%.
     max_valor = max(valores)
     return [(x / max_valor) * 100 for x in valores]
+
+if __name__ == "__main__":
+    calcular_slope()
+    normalizar()
